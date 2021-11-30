@@ -1,10 +1,6 @@
 sudo systemctl status httpd > logfile.txt
-sudo systemctl stop httpd > logfile.txt
-sudo systemctl status httpd > logfile.txt
 sudo systemctl start httpd > logfile.txt
 sudo systemctl status httpd > logfile.txt
-sudo systemctl status tomcat > logfile.txt
-sudo systemctl stop tomcat > logfile.txt
 sudo systemctl status tomcat > logfile.txt
 sudo systemctl start tomcat > logfile.txt
 sudo systemctl status tomcat > logfile.txt
