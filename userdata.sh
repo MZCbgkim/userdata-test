@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo systemctl status httpd > logfile.txt
 sudo systemctl start httpd > logfile.txt
 sudo systemctl status httpd > logfile.txt
